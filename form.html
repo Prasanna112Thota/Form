@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+       
+       
+        background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    form{
+        background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+        margin-left: 400px;
+        margin-right: 400px;
+        padding: 30px;
+    }
+</style>
+<body>
+    <center>
+    <form>
+          <h1>Registration Form</h1>
+          <label for="name" placeholder="As per SSC..">Full Name :</label>
+          <input type="text" name="name" id="name" required><br><br>
+          <label for="email">Email Id :</label>
+          <input type="email" name="email" id="email" required><br><br>
+          <label for="gender">Gender :</label>
+          <input type="radio" name="gender">Male
+          <input type="radio" name="gender">Female
+          <input type="radio" name="gender">Others<br><br>
+          <label for="dob">DOB :</label>
+          <input type="date" name="dob"><br><br>
+          <label for="ph.no">Phone Number :</label>
+          <input type="tel" name="ph.no" id="ph.no" required><br><br>
+          <label for="course">Stream in BTech :</label>
+          <select>
+            <option value="course">CSE</option>
+            <option value="course">ECE</option>
+            <option value="course">AIML</option>
+            <option value="course">IT</option>
+            <option value="course">MECH</option>
+            <option value="course">EEE</option>
+            <option value="course">CIVIL</option>
+          </select><br><br>
+          <label for="courses">Programming Languages :</label>
+           <input type="checkbox" name="courses">JAVA
+           <input type="checkbox" name="courses">Python
+           <input type="checkbox" name="courses">C++
+           <input type="checkbox" name="courses">C<br><br>
+          <label for="lang">Language Known    :</label>
+          <input type="text" name="lang" id="lang" required><br><br>
+          <label for="zipcode">Zip code</label>
+          <input type="text" name="zipcode" id="zipcode" required><br><br>
+          
+          <label for="address">Address :</label>
+          <textarea id="address" rows="5" cols="30" placeholder="As Per Aadhar.."></textarea><br><br>
+        
+          <label for="about">About</label>
+          <textarea id="about" rows="5" cols="30" placeholder="Describe your self.."></textarea><br><br>
+          <button>Submit</button>
+    </form>
+    </center>
+</body>
+</html>
